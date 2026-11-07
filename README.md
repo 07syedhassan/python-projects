@@ -13,3 +13,19 @@ I'm Syed Hassan, a student exploring Python, Cybersecurity, and Agentic AI.
 To improve my programming skills by building real-world projects.
 
 More projects coming soon!
+
+
+## Projects
+
+### 1. Basic ATM System
+A beginner-friendly ATM simulation built using Python.
+
+**Features:**
+- Check account balance
+- Withdraw money
+- Basic user interaction
+
+**Technology:** Python
+
+**Status:** Completed
+
