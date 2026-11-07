@@ -50,5 +50,5 @@ A beginner-friendly ATM simulation built using Python.
 
 ## Project Output
 
-
+![ATM Program Output](atm-output.png)
 
