@@ -29,3 +29,27 @@ A beginner-friendly ATM simulation built using Python.
 
 **Status:** Completed
 
+# Python Projects
+
+My Python programming projects and practical learning journey.
+
+## Projects
+
+### 1. Basic ATM System
+
+A beginner-friendly ATM simulation built using Python.
+
+**Features:**
+- Check account balance
+- Withdraw money
+- Basic user interaction
+
+**Technology:** Python
+
+**Status:** Completed
+
+## Project Output
+
+![ATM Program Output](atm-output.png)
+
+
