@@ -1,27 +1,24 @@
-balance = 5000
+balance = 10000
 
-print("Welcome to ATM")
-print("1. Check Balance")
-print("2. Withdraw Money")
-print("3. Exit")
+try:
+    amount = int(input("Enter withdrawal amount: "))
 
-choice = input("Enter your choice: ")
+    if amount <= 0:
+        print("Invalid amount! Enter an amount greater than zero.")
 
-if choice == "1":
-    print("Your Balance:", balance)
+    elif amount > balance:
+        print("Insufficient balance!")
 
-elif choice == "2":
-    amount = int(input("Enter amount: "))
-
-    if amount <= balance:
-        balance -= amount
-        print("Withdrawal Successful!")
-        print("Remaining Balance:", balance)
     else:
-        print("Insufficient Balance!")
+        balance -= amount
+        print("Withdrawal successful!")
+        print("Remaining balance:", balance)
 
-elif choice == "3":
-    print("Thank you!")
+except ValueError:
+    print("Invalid input! Please enter a valid number.")
 
 else:
-    print("Invalid Choice!")
+    print("Transaction process completed.")
+
+finally:
+    print("Thank you for using our ATM!")
